@@ -1,1 +1,2 @@
-
+Dockerfiles:
+- ubuntu bionic. Install cmake, opnecv3.2, jdk8
