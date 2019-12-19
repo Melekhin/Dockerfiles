@@ -1,0 +1,2 @@
+Dockerfile:
+- ubuntu bionic. Install cmake, opnecv3.2, jdk8, ximea camera
