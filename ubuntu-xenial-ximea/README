@@ -1,0 +1,2 @@
+Dockerfile:
+- ubuntu xenial. Install cmake, opnecv2.4, jdk8, ximea camera
