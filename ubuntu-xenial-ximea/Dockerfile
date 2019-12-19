@@ -3,10 +3,10 @@ MAINTAINER Melekhin Konstantin <km@smartdive.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get dist-upgrade && apt-get install -y \
     wget sudo \
     cmake openjdk-8-jdk \
-    libopencv-core-dev libopencv-highgui-dev libopencv-imgproc-dev libopencv-imgcodecs-dev libopencv-dev \
+    libopencv-core-dev libopencv-highgui-dev libopencv-imgproc-dev libopencv-dev \
  && rm -rf /var/lib/apt/lists/*
 
 RUN wget https://www.ximea.com/downloads/recent/XIMEA_Linux_SP.tgz \
